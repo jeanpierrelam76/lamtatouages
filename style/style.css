@@ -21,6 +21,10 @@
     max-height: 100%;
     }
 
+h1{
+  text-align: center;
+}
+
     
 
 /* Menu */
@@ -51,15 +55,16 @@ header nav ul li a {
   height: 800px;
   width: 100%;
   background:url(/images/owl-1281791_1280.jpg) center no-repeat fixed;
+  padding: 20px 40px 40px 20px;
 }
 
 .bio{
-  width: 300px;
-  height: 600px;
-  border: 1px solid white;
+  width: 350px;
+  height: 700px;
+  
   text-align: left;
+  font-size: large;
   margin:20px 0 0 20px ;
-  padding: 10px 10px 10px 10px;
   opacity: 0.9;
 }
 
@@ -71,7 +76,7 @@ header nav ul li a {
 
 /*TATTOO*/
 
-/*#tattoo{
+#tattoo{
   height: 800px;
   width: auto;
   display: flex;
@@ -93,8 +98,6 @@ margin-bottom: 20px;
   display: inline-block;
   margin:20px 0 0 20px;
   border-radius:5px;
-  
-  
 }
 
 /*FLASH*/
