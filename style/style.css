@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Poppins:wght@100;200;400;500&display=swap');
 
 body,
 header,
@@ -8,7 +9,7 @@ html
   }
 
   body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:"Oswald","sans-serif"
   }
 
   body,
@@ -23,6 +24,8 @@ html
     background:url(/images/owl-1281791_1280.jpg)no-repeat center;
     background-size: cover;
     color:#fff;
+    border-bottom: 20px solid #000;
+    
   }
 
   .wrap{
@@ -51,6 +54,7 @@ header nav{
  width: 20px;
  height: 20px;
  bottom: 10px;
+ right:10px;
   
 }
 
@@ -77,6 +81,28 @@ font-size: 20px;
 
 
 /*BIO*/
+ .bio{
+  background: url(/images/artist-2238780_1280.jpg) no-repeat center;
+  background-size: cover;
+  display:flex;
+}
+
+h1{
+  text-align: center;
+}
+
+.text{
+  color: #fff;
+  width: 350px;
+  height: 800px;
+  background-color:rgba(0,0,0,0.7);
+  font-size:18px;
+  padding: 20px 40px 20px 40px;
+}
+
+
+
+
 
 
 
