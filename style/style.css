@@ -122,38 +122,40 @@ h1{
 
 #tattoo{
 background-color: #000;
-background-size: cover;
+border: 1px solid #fff;
 }
 
-.block{
-  display:inline-block;
-  flex-wrap: wrap;
-  align-items:center;
-  justify-items: center;
-  }
+.tat{
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin: 15px 0;
+}
 
 .tat img{
-  width: 100%;
-  border-radius: 10px;
-  
-}
-.tat{
-  
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  -webkit-filter:drop-shadow(100%);
-  filter: drop-shadow(100%);
-  transition-duration: 1s;
+  width: 450px;
+  height: 450px;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  margin:10px 0;
 }
 
-.tat:hover{
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  -webkit-filter: none;
-  filter: none;
+
+
+.tat img a{
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  
 }
+
+.tat img a:hover{
+background-color: rgba(0,0,0,0.9);
+
+}
+
+
+
 
 
 
